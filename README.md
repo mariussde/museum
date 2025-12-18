@@ -1,10 +1,10 @@
 <div align="center">
-<h1 align="center">The Metropolitan Museum Of Art</h1> 
+<h1 align="center">Le Femme Forgée</h1> 
 Tech Stack: Next.js & Tailwind CSS
 
 <br />
 
-<img src="./img/main_page.png"></img>
+<img src="./public/hind/homepage.png"></img>
 </div>
 
 Credits: https://www.behance.net/gallery/136907107/The-Met-Museum-of-Art-redesign-concept
