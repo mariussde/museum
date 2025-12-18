@@ -7,7 +7,7 @@ export default function EventsPage() {
   return (
     <>
       <Head>
-        <title>Biblioteca - The Metropolitan Museum of Art</title>
+        <title>Biblioteca - Le Femme Forgée</title>
         <meta
           name="description"
           content="Explore our library collection"

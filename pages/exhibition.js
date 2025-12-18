@@ -7,7 +7,7 @@ export default function ExhibitionPage() {
   return (
     <>
       <Head>
-        <title>Colección - The Metropolitan Museum of Art</title>
+        <title>Colección - Le Femme Forgée</title>
         <meta
           name="description"
           content="Explore our collection of artworks"

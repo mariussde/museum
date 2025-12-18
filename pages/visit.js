@@ -7,7 +7,7 @@ export default function VisitPage() {
   return (
     <>
       <Head>
-        <title>Visit - The Metropolitan Museum of Art</title>
+        <title>Visita - Le Femme Forgée</title>
         <meta
           name="description"
           content="Plan your visit to The Metropolitan Museum of Art"
