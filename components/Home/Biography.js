@@ -72,7 +72,7 @@ export default function Biography() {
               Inició su formación artística en el taller de orfebrería de su padre, donde desarrolló una profunda comprensión del trabajo con metales. Tras establecerse en París en 1900, se relacionó con los círculos artísticos de vanguardia, incluyendo a Pablo Picasso, con quien colaboró estrechamente en la década de 1930.
             </p>
             <p>
-              González revolucionó la escultura al concebir el hierro como un medio para <span className="italic">"dibujar en el espacio"</span>, creando obras que combinaban la solidez del metal con la ligereza de la línea. Sus esculturas abstractas, caracterizadas por formas orgánicas y estructuras geométricas, influyeron profundamente en el desarrollo del arte moderno.
+              González revolucionó la escultura al concebir el hierro como un medio para <span className="italic">&ldquo;dibujar en el espacio&rdquo;</span>, creando obras que combinaban la solidez del metal con la ligereza de la línea. Sus esculturas abstractas, caracterizadas por formas orgánicas y estructuras geométricas, influyeron profundamente en el desarrollo del arte moderno.
             </p>
             <p>
               Su legado perdura en las colecciones de los principales museos del mundo, incluyendo el Museo de Arte Moderno de Nueva York, el Centro Pompidou de París y el Museo Nacional Centro de Arte Reina Sofía de Madrid.
