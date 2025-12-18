@@ -32,26 +32,27 @@ export default function Biography() {
       {/* Article Layout Grid */}
       <div className="grid grid-cols-1 gap-12 lg:grid-cols-12">
         
-        {/* Left Column: Image (Spans 4 columns) */}
-        <motion.div
-          initial="initial"
-          animate="animate"
-          variants={fadeInUp}
-          className="lg:col-span-4"
-        >
-          <div className="sticky top-8">
-            <div className="overflow-hidden bg-gray-100 shadow-sm">
-              <img
-                src="/hind/julio.jpg"
-                alt="Julio González"
-                className="h-auto w-full grayscale hover:grayscale-0 transition-all duration-700 ease-in-out"
-              />
-            </div>
-            <p className="plain-regular mt-4 text-xs uppercase tracking-widest text-[#878787]">
-              Julio González, c. 1930
-            </p>
+      {/* Left Column: Image (Spans 4 columns) */}
+      <motion.div
+        initial="initial"
+        animate="animate"
+        variants={fadeInUp}
+        className="lg:col-span-4"
+      >
+        <div className="sticky top-8">
+          {/* Added mx-auto w-1/2 for mobile and reset to w-full on lg screens */}
+          <div className="mx-auto w-1/2 overflow-hidden bg-gray-100 shadow-sm lg:w-full">
+            <img
+              src="/hind/julio.jpg"
+              alt="Julio González"
+              className="h-auto w-full grayscale hover:grayscale-0 transition-all duration-700 ease-in-out"
+            />
           </div>
-        </motion.div>
+          <p className="plain-regular mt-4 text-xs uppercase tracking-widest text-[#878787] text-center lg:text-left">
+            Julio González, c. 1930
+          </p>
+        </div>
+      </motion.div>
 
         {/* Center Column: Main Text (Spans 5 columns) */}
         <motion.div
