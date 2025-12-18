@@ -10,7 +10,7 @@ export default function VisitPage() {
         <title>Visita - Le Femme Forgée</title>
         <meta
           name="description"
-          content="Plan your visit to The Metropolitan Museum of Art"
+          content="Plan your visit to Le Femme Forgée"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
