@@ -1,6 +1,7 @@
 import Nav from "../Nav";
 import Landing from "./Landing";
 import Locations from "./Locations";
+import Biography from "./Biography";
 import Explore from "./Explore";
 import News from "./News";
 import Shop from "./Shop";
@@ -11,10 +12,7 @@ export default function Layout() {
     <>
       <Nav />
       <Landing />
-      <Locations />
-      <Explore />
-      <News />
-      <Shop />
+      <Biography />
       <Footer />
     </>
   );

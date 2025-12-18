@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Le Femme Forgée - Museo de Arte" />
         <meta property="og:description" content="Bienvenido al Museo de Arte Le Femme Forgée" />
-        <meta property="og:image" content="/images/upv-1.jpg" />
+        <meta property="og:image" content="/hind/homepage.png" />
         <meta property="og:url" content="https://your-domain.com" />
         
         {/* Twitter */}
