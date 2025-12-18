@@ -21,12 +21,12 @@ const paintings = [
     { id: 2, title: "2 - MASKS 1912/1914", image: "/hind/1.jpg" },
     { id: 3, title: "3 - JEUNE FEMME AU JOURNAL", image: "/hind/13.jpg" },
     { id: 4, title: "4 - WIKIWAND", image: "/hind/23.jpg" },
-    { id: 5, title: "5 - TETE AU MIROR", image: "/hind/62.jpg" },
-    { id: 6, title: "6 - FEMME ETENDUE LISANT", image: "/hind/19.jpg" },
+    { id: 5, title: "5 - TÊTE AU MIROR", image: "/hind/62.jpg" },
+    { id: 6, title: "6 - FEMME ÊTENDUE LISANT", image: "/hind/19.jpg" },
     { id: 7, title: "7 - UNTITLED", image: "/hind/5.jpg" },
     { id: 8, title: "8 - SER ARTISTA", image: "/hind/46.jpg" },
-    { id: 9, title: "9 - NU DE DOS INACHEVE", image: "/hind/10.jpg" },
-    { id: 10, title: "10 - LA MONTSERRAT", image: "/hind/100.jpg" },
+    { id: 9, title: "9 - NU DE DOS INACHEVÉ", image: "/hind/10.jpg" },
+    { id: 10, title: "10 - LA MONTSERRAT", image: "/hind/100.png" },
     
 ]
 
