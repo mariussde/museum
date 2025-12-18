@@ -4,17 +4,31 @@ import { useState } from "react";
 import useMediaQuery from "../useMediaQuery";
 import Search from "../../public/svgs/search.svg";
 
+// const paintings = [
+//   { id: 1, title: "Iyoba", image: "/images/Iyoba.webp" },
+//   { id: 2, title: "Brinley", image: "/images/Brinley.webp" },
+//   { id: 3, title: "Bronzino", image: "/images/Bronzino.webp" },
+//   { id: 4, title: "Dionysos", image: "/images/Dionysos.webp" },
+//   { id: 5, title: "Pieta", image: "/images/Pieta.webp" },
+//   { id: 6, title: "Dusasa", image: "/images/Dusasa.jpg" },
+//   { id: 7, title: "AG", image: "/images/AG.png" },
+//   { id: 8, title: "SL", image: "/images/SL.jpeg" },
+//   { id: 9, title: "SW", image: "/images/SW.jpeg" },
+// ];
+
 const paintings = [
-  { id: 1, title: "Iyoba", image: "/images/Iyoba.webp" },
-  { id: 2, title: "Brinley", image: "/images/Brinley.webp" },
-  { id: 3, title: "Bronzino", image: "/images/Bronzino.webp" },
-  { id: 4, title: "Dionysos", image: "/images/Dionysos.webp" },
-  { id: 5, title: "Pieta", image: "/images/Pieta.webp" },
-  { id: 6, title: "Dusasa", image: "/images/Dusasa.jpg" },
-  { id: 7, title: "AG", image: "/images/AG.png" },
-  { id: 8, title: "SL", image: "/images/SL.jpeg" },
-  { id: 9, title: "SW", image: "/images/SW.jpeg" },
-];
+    { id: 1, title: "1 - BUSTE FÉMININ", image: "/hind/64.jpg" },
+    { id: 2, title: "2 - MASKS 1912/1914", image: "/hind/1.jpg" },
+    { id: 3, title: "3 - JEUNE FEMME AU JOURNAL", image: "/hind/13.jpg" },
+    { id: 4, title: "4 - WIKIWAND", image: "/hind/23.jpg" },
+    { id: 5, title: "5 - TETE AU MIROR", image: "/hind/62.jpg" },
+    { id: 6, title: "6 - FEMME ETENDUE LISANT", image: "/hind/19.jpg" },
+    { id: 7, title: "7 - UNTITLED", image: "/hind/5.jpg" },
+    { id: 8, title: "8 - SER ARTISTA", image: "/hind/46.jpg" },
+    { id: 9, title: "9 - NU DE DOS INACHEVE", image: "/hind/10.jpg" },
+    { id: 10, title: "10 - LA MONTSERRAT", image: "/hind/100.jpg" },
+    
+]
 
 export default function Collection() {
   const [searchQuery, setSearchQuery] = useState("");
