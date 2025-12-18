@@ -63,7 +63,7 @@ export default function Nav() {
             </a>
           </Link>
         </a>
-        <div className="plain-medium hidden flex-wrap items-center justify-center gap-x-16 text-[0.9rem] text-[#3b3b3b] md:ml-auto md:mr-auto lg:flex">
+        <div className="plain-medium flex flex-wrap items-center justify-center gap-x-8 gap-y-2 text-[0.9rem] text-[#3b3b3b] md:ml-auto md:mr-auto md:gap-x-16">
           <Link href="/visit" passHref>
             <a className="transition hover:text-black">VISITA</a>
           </Link>
@@ -75,21 +75,6 @@ export default function Nav() {
           </Link>
         </div>
         <div className="grow" />
-        <div className="flex lg:hidden">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            fillRule="evenodd"
-            clipRule="evenodd"
-          >
-            <path
-              d="M24 18v1h-24v-1h24zm0-6v1h-24v-1h24zm0-6v1h-24v-1h24z"
-              fill="#1040e2"
-            />
-            <path d="M24 19h-24v-1h24v1zm0-6h-24v-1h24v1zm0-6h-24v-1h24v1z" />
-          </svg>
-        </div>
       </motion.div>
     </>
   );

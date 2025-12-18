@@ -113,7 +113,7 @@ export default function Library() {
                   className="h-auto w-full object-cover"
                 />
               </div>
-              <div className="plain-regular">
+              <div className="ogg-regular">
                 <h3 className="text-lg text-[#363636] lg:text-xl">
                   {book.title}
                 </h3>
