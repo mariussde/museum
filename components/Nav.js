@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
-import METLogo from "../public/svgs/logo.svg";
 import useMediaQuery from "./useMediaQuery";
 import { motion } from "framer-motion";
 
@@ -55,8 +54,12 @@ export default function Nav() {
       >
         <a className="mb-4 mr-12 flex items-center font-medium text-gray-900 md:mb-0 xl:mr-20">
           <Link href="/" passHref>
-            <a>
-              <METLogo />
+            <a className="text-center">
+              <div className="benguiat-logo text-[#ec0426] text-lg md:text-xl lg:text-2xl">
+                Le Femme
+                <br />
+                Forgée
+              </div>
             </a>
           </Link>
         </a>

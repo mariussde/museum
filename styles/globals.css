@@ -77,6 +77,14 @@ a {
   font-family: Plain-Regular;
 }
 
+.benguiat-logo {
+  font-family: "ITC Benguiat Condensed", "ITC Benguiat", serif;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
 .no-select {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
