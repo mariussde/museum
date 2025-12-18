@@ -102,7 +102,7 @@ export default function Landing({ variants }) {
         <div className="relative flex justify-center">
           <AnimateSharedLayout type="crossfade">
             <motion.div variants={container} initial="hidden" animate="show">
-              <div className="imggrid z-0 pr-44 pl-12">
+              <div className="imggrid z-0 pr-36 pl-12">
                 <div className="pos-1 hidden lg:grid">
                   <div className="relative h-[9.2rem] w-28 bg-cover">
                     <motion.div variants={variants}>
@@ -180,7 +180,7 @@ export default function Landing({ variants }) {
             <motion.div initial="initial" animate="animate">
               <motion.h2
                 variants={isDesktop ? fadeInUp : fadeInUpMobile}
-                className="ogg-regular mb-4 mt-8 text-[4.2rem] leading-[4rem] text-[#303030] md:text-[5rem] lg:mt-24 lg:text-[11rem] lg:leading-[12rem]"
+                className="ogg-regular mb-4 mt-12 text-[3.5rem] leading-[3.3rem] text-[#303030] md:text-[4rem] lg:mt-32 lg:text-[9rem] lg:leading-[10rem]"
               >
                 Bienvenido <span className="ogg-regular-italic">al</span> Museo
               </motion.h2>

@@ -53,6 +53,8 @@ export default function Visit() {
           </h1>
         </motion.div>
 
+        <div className="mb-8 border-t-2 border-[#c2bfba] lg:mb-12"></div>
+
         <div className="flex flex-col gap-12 lg:gap-16">
           {/* First row: Image left, Text right */}
           <motion.div
@@ -61,7 +63,7 @@ export default function Visit() {
             variants={isDesktop ? fadeInUp : fadeInUpMobile}
             className="flex flex-col gap-6 lg:flex-row lg:items-center lg:gap-12"
           >
-            <div className="w-full overflow-hidden rounded-lg bg-gray-200 lg:w-1/2">
+            <div className="w-full overflow-hidden bg-gray-200 lg:w-1/2">
               <img
                 src="/images/upv-1.jpg"
                 alt="Museum Location 1"
@@ -96,7 +98,7 @@ export default function Visit() {
                 belleza de la expresión artística.
               </p>
             </div>
-            <div className="order-1 w-full overflow-hidden rounded-lg bg-gray-200 lg:order-2 lg:w-1/2">
+            <div className="order-1 w-full overflow-hidden bg-gray-200 lg:order-2 lg:w-1/2">
               <img
                 src="/images/upv-2.jpg"
                 alt="Museum Location 2"

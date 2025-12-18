@@ -7,7 +7,7 @@ export default function Locations() {
       <div className="mx-auto my-32 px-5 lg:container lg:my-60 xl:pl-2">
         <div>
           <h2 className="ogg-regular mb-6 text-[3rem] leading-[3rem] text-[#2d2d2d] lg:mb-0 lg:text-[4.1rem] lg:leading-[14rem]">
-            Un museo, dos ubicaciones
+            Un museo, dos visitas
           </h2>
         </div>
         <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
@@ -50,7 +50,7 @@ export default function Locations() {
           <div>
             <div className="plain-regular">
               <h3 className="mb-4 text-[1.2rem] text-[#303030] lg:text-[1.5rem]">
-                Sede Secundaria
+                Sección Extendida
               </h3>
               <h4 className="pb-[0.10rem] text-sm text-[#878787]">
                 Jueves-Martes: 10:00 - 16:30

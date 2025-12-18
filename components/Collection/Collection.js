@@ -72,6 +72,8 @@ export default function Collection() {
           </h1>
         </motion.div>
 
+        <div className="mb-8 border-t-2 border-[#c2bfba] lg:mb-12"></div>
+
         {/* Search Section */}
         <motion.div
           initial="initial"
