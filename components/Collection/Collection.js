@@ -120,15 +120,15 @@ export default function Collection() {
               transition={{ delay: index * 0.1 }}
               className="flex flex-col"
             >
-              <div className="mb-4 w-full overflow-hidden bg-gray-200">
+              <div className="mb-4 flex w-full justify-center">
                 <img
                   src={painting.image}
                   alt={painting.title}
-                  className="h-auto w-full object-cover"
+                  className="h-auto w-3/4 object-cover lg:w-2/3"
                 />
               </div>
-              <div className="ogg-regular">
-                <h3 className="text-lg text-[#363636] lg:text-xl">
+              <div className="ogg-regular flex w-full justify-center">
+                <h3 className="w-3/4 text-lg text-[#363636] lg:w-2/3 lg:text-xl">
                   {painting.title}
                 </h3>
               </div>

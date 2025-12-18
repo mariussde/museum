@@ -5,16 +5,103 @@ import useMediaQuery from "../useMediaQuery";
 import Search from "../../public/svgs/search.svg";
 
 const books = [
-  { id: 1, title: "Arte Clásico", image: "/images/MET.png" },
-  { id: 2, title: "Historia del Arte", image: "/images/M.png" },
-  { id: 3, title: "Esculturas Antiguas", image: "/images/AG.png" },
-  { id: 4, title: "Pintura Moderna", image: "/images/SL.jpeg" },
-  { id: 5, title: "Arte Contemporáneo", image: "/images/SW.jpeg" },
-  { id: 6, title: "Colecciones Especiales", image: "/images/Gifts.png" },
-  { id: 7, title: "Arte Africano", image: "/images/Dusasa.jpg" },
-  { id: 8, title: "Arte Europeo", image: "/images/Cloisters.jpeg" },
-  { id: 9, title: "Arte Asiático", image: "/images/MET.png" },
-];
+    {
+      id: 1,
+      title: "Julio González - Catalogue Raisonné Sculpture",
+      image: "/hind/raisonne.jpg",
+      subtitle: "Registro académico definitivo de su revolucionaria escultura en hierro."
+    },
+    {
+      id: 2,
+      title: "Julio González - A Retrospective",
+      image: "/hind/retrospective.jpg",
+      subtitle: "Estudio exhaustivo de su evolución artística y aportaciones al modernismo."
+    },
+    {
+      id: 3,
+      title: "Julio González - The Museum of Modern Art",
+      image: "/hind/modern art.jpg",
+      subtitle: "Exposición del MoMA sobre su pionero trabajo en metal abstracto."
+    },
+    {
+      id: 4,
+      title: "Julio González - Catálogo general razonado de las pinturas, esculturas y dibujos",
+      image: "/hind/catalogo.jpg",
+      subtitle: "Documentación completa de su carrera multidisciplinar en pintura y escultura."
+    },
+    {
+      id: 5,
+      title: "Julio González - Collection (Centre Pompidou)",
+      image: "/hind/pompidou.jpg",
+      subtitle: "Análisis profundo de los extensos archivos de González en el Pompidou."
+    },
+    {
+      id: 6,
+      title: "Josephine Withers - Julio González: Sculpture in Iron",
+      image: "/hind/iron.jpg",
+      subtitle: "Estudio sobre cómo González revolucionó el arte al 'dibujar en el espacio'."
+    },
+    {
+      id: 7,
+      title: "Sylvia Plath - Ariel",
+      image: "/hind/ariel.jpg",
+      subtitle: "Poesía visceral que redefine la voz femenina mediante la lucha psíquica."
+    },
+    {
+      id: 8,
+      title: "John Berger - Ways of Seeing",
+      image: "/hind/berger.jpg",
+      subtitle: "Crítica de la mirada masculina y el poder del género en el arte."
+    },
+    {
+      id: 9,
+      title: "Kate Chopin - The Awakening",
+      image: "/hind/chopin.jpg",
+      subtitle: "Viaje de autodescubrimiento y liberación femenina en la sociedad victoriana."
+    },
+    {
+      id: 10,
+      title: "Virginia Woolf - Mrs Dalloway",
+      image: "/hind/dalloway.jpg",
+      subtitle: "Exploración de la interioridad femenina y restricciones sociales de posguerra."
+    },
+    {
+      id: 11,
+      title: "Paul Éluard - The Love Poems of Paul Éluard",
+      image: "/hind/love poeme.jpg",
+      subtitle: "Versos surrealistas que fusionan deseo romántico y libertad política."
+    },
+    {
+      id: 12,
+      title: "Pablo Neruda - Twenty Love Poems and a Song of Despair",
+      image: "/hind/neruda.jpg",
+      subtitle: "Exploraciones líricas sobre la pasión cruda, la melancolía y el paisaje humano."
+    },
+    {
+      id: 13,
+      title: "Anne Baldassari - Matisse Picasso",
+      image: "/hind/picasso.webp",
+      subtitle: "Diálogo entre dos maestros sobre su influencia mutua y rivalidad."
+    },
+    {
+      id: 14,
+      title: "Simone de Beauvoir - The Second Sex",
+      image: "/hind/second sex.jpg",
+      subtitle: "Texto fundamental sobre la construcción social de 'lo Otro'."
+    },
+    {
+      id: 15,
+      title: "Lynda Nead - The Female Nude: Art, Obscenity and Sexuality",
+      image: "/hind/the female nude.jpg",
+      subtitle: "Deconstrucción de cómo la estética regula y contiene el cuerpo femenino."
+    },
+    {
+      id: 16,
+      title: "Griselda Pollock - Woman as Image, Man as Bearer of the Look",
+      image: "/hind/woman in art.jpg",
+      subtitle: "Interrogación feminista sobre la diferencia sexual y la mirada en el arte."
+    }
+  ];
 
 export default function Library() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -106,17 +193,22 @@ export default function Library() {
               transition={{ delay: index * 0.1 }}
               className="flex flex-col"
             >
-              <div className="mb-4 w-full overflow-hidden bg-gray-200">
+              <div className="mb-4 flex w-full justify-center">
                 <img
                   src={book.image}
                   alt={book.title}
-                  className="h-auto w-full object-cover"
+                  className="h-auto w-3/4 object-cover lg:w-2/3"
                 />
               </div>
               <div className="ogg-regular">
                 <h3 className="text-lg text-[#363636] lg:text-xl">
                   {book.title}
                 </h3>
+                {book.subtitle && (
+                  <p className="plain-regular mt-2 text-sm leading-relaxed text-[#878787] lg:text-base">
+                    {book.subtitle}
+                  </p>
+                )}
               </div>
             </motion.div>
           ))}
