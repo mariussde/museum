@@ -26,7 +26,7 @@ const paintings = [
     { id: 7, title: "7 - UNTITLED", image: "/hind/5.jpg" },
     { id: 8, title: "8 - SER ARTISTA", image: "/hind/46.jpg" },
     { id: 9, title: "9 - NU DE DOS INACHEVÉ", image: "/hind/10.jpg" },
-    { id: 10, title: "10 - LA MONTSERRAT", image: "/hind/100.png" },
+    { id: 10, title: "10 - LA MONTSERRAT", image: "/hind/10.png" },
     
 ]
 
@@ -81,9 +81,12 @@ export default function Collection() {
           animate="animate"
           variants={isDesktop ? fadeInUp : fadeInUpMobile}
         >
-          <h1 className="ogg-regular mb-8 text-[3rem] leading-[3rem] text-[#2d2d2d] lg:mb-12 lg:text-[5rem] lg:leading-[5rem]">
+          <h1 className="ogg-regular mb-2 text-[3rem] leading-[3rem] text-[#2d2d2d] lg:mb-3 lg:text-[5rem] lg:leading-[5rem]">
             Colección
           </h1>
+          <p className="plain-regular mb-8 text-sm text-[#878787] lg:mb-12 lg:text-base">
+            Colección de algunas de las Obras de Julio González
+          </p>
         </motion.div>
 
         <div className="mb-8 border-t-2 border-[#c2bfba] lg:mb-12"></div>

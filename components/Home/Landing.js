@@ -109,7 +109,7 @@ export default function Landing({ variants }) {
                       <motion.div variants={item}>
                         <Image
                           alt="Iyoba"
-                          src="/images/Iyoba.webp"
+                          src="/hind/1.jpg"
                           height={180}
                           width={130}
                         />
@@ -123,7 +123,7 @@ export default function Landing({ variants }) {
                       <motion.div variants={item} className="mr-2">
                         <Image
                           alt="Brinley"
-                          src="/images/Brinley.webp"
+                          src="/hind/13.jpg"
                           height={195}
                           width={145}
                         />
@@ -137,7 +137,7 @@ export default function Landing({ variants }) {
                       <motion.div variants={item}>
                         <Image
                           alt="Pieta"
-                          src="/images/Pieta.webp"
+                          src="/hind/23.jpg"
                           height={190}
                           width={130}
                         />
@@ -151,7 +151,7 @@ export default function Landing({ variants }) {
                       <motion.div variants={item}>
                         <Image
                           alt="Bronzino"
-                          src="/images/Bronzino.webp"
+                          src="/hind/62.jpg"
                           height={185}
                           width={145}
                         />
@@ -165,7 +165,7 @@ export default function Landing({ variants }) {
                       <motion.div variants={item}>
                         <Image
                           alt="Dionysos"
-                          src="/images/Dionysos.webp"
+                          src="/hind/19.jpg"
                           height={170}
                           width={130}
                         />

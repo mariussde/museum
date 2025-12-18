@@ -154,9 +154,12 @@ export default function Library() {
           animate="animate"
           variants={isDesktop ? fadeInUp : fadeInUpMobile}
         >
-          <h1 className="ogg-regular mb-8 text-[3rem] leading-[3rem] text-[#2d2d2d] lg:mb-12 lg:text-[5rem] lg:leading-[5rem]">
+          <h1 className="ogg-regular mb-2 text-[3rem] leading-[3rem] text-[#2d2d2d] lg:mb-3 lg:text-[5rem] lg:leading-[5rem]">
             Biblioteca
           </h1>
+          <p className="plain-regular mb-8 text-sm text-[#878787] lg:mb-12 lg:text-base">
+            Bibliografía de obras de referencia para el estudio de Julio González
+          </p>
         </motion.div>
 
         <div className="mb-8 border-t-2 border-[#c2bfba] lg:mb-12"></div>
