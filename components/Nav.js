@@ -56,9 +56,9 @@ export default function Nav() {
           <Link href="/" passHref>
             <a className="text-center">
               <div className="benguiat-logo text-[#ec0426] text-lg md:text-xl lg:text-2xl">
-                Le Femme
+                LE FEMME
                 <br />
-                Forgée
+                FORGÉE
               </div>
             </a>
           </Link>

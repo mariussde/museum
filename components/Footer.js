@@ -13,9 +13,9 @@ export default function Footer() {
           <div className="w-64 flex-shrink-0 text-left tracking-wide text-[#8f8f8f] lg:mx-auto">
             <a href="/" className="flex md:justify-start">
               <div className="benguiat-logo text-[#ec0426] text-lg md:text-xl lg:text-2xl text-center">
-                Le Femme
+                LE FEMME
                 <br />
-                Forgée
+                FORGÉE
               </div>
             </a>
             <div className="mt-12 lg:mt-24">

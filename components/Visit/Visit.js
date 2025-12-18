@@ -100,7 +100,7 @@ export default function Visit() {
             </div>
             <div className="order-1 w-full overflow-hidden bg-gray-200 lg:order-2 lg:w-1/2">
               <img
-                src="/images/upv-2.jpg"
+                src="/images/upv-2.jpeg"
                 alt="Museum Location 2"
                 className="h-64 w-full object-cover lg:h-96"
               />
