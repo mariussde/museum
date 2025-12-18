@@ -191,13 +191,6 @@ export default function Landing({ variants }) {
                 animate="animate"
                 className="flex flex-col"
               >
-                <motion.span
-                  variants={isDesktop ? fadeInUp2 : fadeInUp2Mobile}
-                  className="max-w-[17rem] leading-5"
-                >
-                  For the health and safety of our staff and visitors, capacity
-                  is limited. Prepare for longer lines outside the Museum.
-                </motion.span>
                 <motion.div
                   variants={isDesktop ? fadeInUp2 : fadeInUp2Mobile}
                   className="mt-6 inline-block"

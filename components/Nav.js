@@ -63,27 +63,13 @@ export default function Nav() {
         </a>
         <div className="plain-medium hidden flex-wrap items-center justify-center gap-x-16 text-[0.9rem] text-[#3b3b3b] md:ml-auto md:mr-auto lg:flex">
           <Link href="/visit" passHref>
-            <a className="transition hover:text-black">VISIT</a>
+            <a className="transition hover:text-black">VISITA</a>
           </Link>
           <Link href="/exhibition" passHref>
-            <a className="transition hover:text-black">EXHIBITION</a>
+            <a className="transition hover:text-black">COLECCIÓN</a>
           </Link>
           <Link href="/events" passHref>
-            <a className="transition hover:text-black">EVENTS</a>
-          </Link>
-          <Link href="/art" passHref>
-            <a className="transition hover:text-black">ART</a>
-          </Link>
-          <Link href="/learn" passHref>
-            <a className="transition hover:text-black">LEARN</a>
-          </Link>
-          <Link href="/membership" passHref>
-            <a className="transition hover:text-black">MEMBERSHIP</a>
-          </Link>
-          <Link href="/shop" passHref>
-            <a className="hidden transition hover:text-black md:hidden lg:hidden xl:block">
-              SHOP
-            </a>
+            <a className="transition hover:text-black">BIBLIOTECA</a>
           </Link>
         </div>
         <div className="grow xl:hidden" />

@@ -1,0 +1,23 @@
+import Head from "next/head";
+import Nav from "../components/Nav";
+import Visit from "../components/Visit/Visit";
+import Footer from "../components/Footer";
+
+export default function VisitPage() {
+  return (
+    <>
+      <Head>
+        <title>Visit - The Metropolitan Museum of Art</title>
+        <meta
+          name="description"
+          content="Plan your visit to The Metropolitan Museum of Art"
+        />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <Nav />
+      <Visit />
+      <Footer />
+    </>
+  );
+}
+
