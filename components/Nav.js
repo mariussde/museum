@@ -63,7 +63,7 @@ export default function Nav() {
             </a>
           </Link>
         </a>
-        <div className="plain-medium flex flex-wrap items-center justify-center gap-x-8 gap-y-2 text-[0.9rem] text-[#3b3b3b] md:ml-auto md:mr-auto md:gap-x-16">
+        <div className="ogg-regular font-bold flex flex-wrap items-center justify-center gap-x-8 gap-y-2 text-[0.9rem] text-[#3b3b3b] md:ml-auto md:mr-auto md:gap-x-16">
           <Link href="/visit" passHref>
             <a className="transition hover:text-black">VISITA</a>
           </Link>
