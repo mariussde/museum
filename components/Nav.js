@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
-import Search from "../public/svgs/search.svg";
 import METLogo from "../public/svgs/logo.svg";
 import useMediaQuery from "./useMediaQuery";
 import { motion } from "framer-motion";
@@ -72,17 +71,7 @@ export default function Nav() {
             <a className="transition hover:text-black">BIBLIOTECA</a>
           </Link>
         </div>
-        <div className="grow xl:hidden" />
-        <div className="hidden flex-row lg:flex">
-          <div className="pr-3">
-            <Search />
-          </div>
-          <input
-            type="text"
-            className="plain-regular bg-[#f2eee5] text-[0.9em] tracking-[0.8px] text-[#363636] placeholder-[#878787] outline-none"
-            placeholder="SEARCH"
-          />
-        </div>
+        <div className="grow" />
         <div className="flex lg:hidden">
           <svg
             xmlns="http://www.w3.org/2000/svg"

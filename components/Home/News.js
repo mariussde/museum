@@ -10,11 +10,11 @@ export default function News() {
         <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
           <div>
             <h2 className="ogg-regular pl-4 text-[3rem] text-[#2d2d2d] lg:pl-0 lg:text-[4.1rem] ">
-              What&apos;s new
+              Novedades
             </h2>
             <div className="mt-3 ml-5 hidden lg:mt-5 lg:ml-0 lg:block">
               <a href="/" className="plain-regular text-md text-[#ec0426]">
-                See all
+                Ver todo
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="45px"
@@ -35,13 +35,13 @@ export default function News() {
             <img className="w-full" src="/images/M.png" alt="" />
             <div className="mt-8 space-y-6">
               <h3 className="ogg-medium text-[2.3rem] leading-10 text-[#2d2d2d] lg:text-[2.6rem]">
-                SPINARIO'S THORN
+                LA ESPINA DEL ESPINARIO
               </h3>
               <div className="pb-4">
                 <p className="plain-regular text-[1.07rem] text-[#2d2d2d]">
-                  Explore Antico's greatest work—online or at the Museum—with
-                  new perspectives on pain, mindfulness, and the creative
-                  process.
+                  Explora la obra maestra de Antico—en línea o en el Museo—con
+                  nuevas perspectivas sobre el dolor, la atención plena y el proceso
+                  creativo.
                 </p>
               </div>
             </div>
@@ -67,12 +67,12 @@ export default function News() {
             </div>
             <div className="mt-6 space-y-3 lg:mt-8 lg:space-y-6">
               <h3 className="plain-regular leading-7 text-[#2d2d2d] sm:text-[1.3rem] md:text-[1.5rem] lg:text-[1.7rem] lg:leading-10">
-                Met Signs Tour
+                Tour de Señas del Museo
               </h3>
               <div className="pb-4">
                 <p className="plain-regular pb-12 text-[0.8rem] text-[#2d2d2d] md:text-[0.9rem] lg:text-[1.1rem]">
-                  Explore Juan Gris's cubist masterpiece Still Life with Checked
-                  Tablecloth. Presented in American Sign Language.
+                  Explora la obra maestra cubista de Juan Gris Naturaleza Muerta con Mantel
+                  a Cuadros. Presentado en Lengua de Señas Americana.
                 </p>
               </div>
             </div>
@@ -86,12 +86,12 @@ export default function News() {
             />
             <div className="mt-6 space-y-3 lg:mt-8 lg:space-y-6">
               <h3 className="plain-regular leading-7 text-[#2d2d2d] sm:text-[1.3rem] md:text-[1.5rem] lg:text-[1.7rem] lg:leading-10">
-                Paint and Movie Magic
+                Pintura y Magia Cinematográfica
               </h3>
               <div className="pb-4">
                 <p className="plain-regular pb-12 text-[0.8rem] text-[#2d2d2d] md:text-[0.9rem] lg:text-[1.1rem]">
-                  A close look at Disney's animation cels and drawings reveals a
-                  side to movie magic that often goes unseen.
+                  Una mirada cercana a los cels de animación y dibujos de Disney revela un
+                  lado de la magia cinematográfica que a menudo pasa desapercibido.
                 </p>
               </div>
             </div>
@@ -105,11 +105,11 @@ export default function News() {
             />
             <div className="mt-8 space-y-6">
               <h3 className="plain-regular text-[1.7rem] leading-10 text-[#2d2d2d]">
-                Contribute to our future
+                Contribuye a nuestro futuro
               </h3>
               <div className="pb-20">
                 <p className="plain-regular pb-12 text-[1.1rem] text-[#2d2d2d]">
-                  Support our mission in a new way. Become a member.
+                  Apoya nuestra misión de una nueva manera. Conviértete en miembro.
                 </p>
               </div>
             </div>
@@ -123,14 +123,13 @@ export default function News() {
             />
             <div className="mt-8 space-y-6">
               <h3 className="plain-regular text-[1.7rem] leading-10 text-[#2d2d2d]">
-                Audio Guide
+                Guía de Audio
               </h3>
               <div className="pb-0">
                 <p className="plain-regular pb-12 text-[1.1rem] text-[#2d2d2d]">
-                  Listen to contemporary indigenous artists, curators, and
-                  historians who share their perspectives on the traditions and
-                  techniques on display from the Charles and Valerie Diker
-                  Collection.
+                  Escucha a artistas indígenas contemporáneos, curadores e
+                  historiadores que comparten sus perspectivas sobre las tradiciones y
+                  técnicas en exhibición de la Colección Charles y Valerie Diker.
                 </p>
               </div>
             </div>

@@ -53,21 +53,22 @@ export default function Visit() {
           </h1>
         </motion.div>
 
-        <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-12">
+        <div className="flex flex-col gap-12 lg:gap-16">
+          {/* First row: Image left, Text right */}
           <motion.div
             initial="initial"
             animate="animate"
             variants={isDesktop ? fadeInUp : fadeInUpMobile}
-            className="flex flex-col"
+            className="flex flex-col gap-6 lg:flex-row lg:items-center lg:gap-12"
           >
-            <div className="mb-6 w-full overflow-hidden rounded-lg bg-gray-200 lg:mb-8">
+            <div className="w-full overflow-hidden rounded-lg bg-gray-200 lg:w-1/2">
               <img
                 src="/images/upv-1.jpg"
                 alt="Museum Location 1"
                 className="h-64 w-full object-cover lg:h-96"
               />
             </div>
-            <div className="plain-regular text-[#303030]">
+            <div className="plain-regular w-full text-[#303030] lg:w-1/2">
               <p className="text-base leading-relaxed text-[#363636] lg:text-lg">
                 Experimenta la grandeza de nuestro principal lugar, con exhibiciones 
                 y colecciones de clase mundial que abarcan siglos de logros artísticos.
@@ -79,20 +80,14 @@ export default function Visit() {
             </div>
           </motion.div>
 
+          {/* Second row: Text left, Image right */}
           <motion.div
             initial="initial"
             animate="animate"
             variants={isDesktop ? fadeInUp : fadeInUpMobile}
-            className="flex flex-col"
+            className="flex flex-col gap-6 lg:flex-row lg:items-center lg:gap-12"
           >
-            <div className="mb-6 w-full overflow-hidden rounded-lg bg-gray-200 lg:mb-8">
-              <img
-                src="/images/upv-2.jpg"
-                alt="Museum Location 2"
-                className="h-64 w-full object-cover lg:h-96"
-              />
-            </div>
-            <div className="plain-regular text-[#303030]">
+            <div className="plain-regular order-2 w-full text-[#303030] lg:order-1 lg:w-1/2">
               <p className="text-base leading-relaxed text-[#363636] lg:text-lg">
                 Descubre nuestro museo, ubicado en un ambiente sereno
                 que perfecta complementa el arte dentro. Este espacio proporciona
@@ -100,6 +95,13 @@ export default function Visit() {
                 visitantes un refugio tranquilo para contemplar y apreciar la
                 belleza de la expresión artística.
               </p>
+            </div>
+            <div className="order-1 w-full overflow-hidden rounded-lg bg-gray-200 lg:order-2 lg:w-1/2">
+              <img
+                src="/images/upv-2.jpg"
+                alt="Museum Location 2"
+                className="h-64 w-full object-cover lg:h-96"
+              />
             </div>
           </motion.div>
         </div>

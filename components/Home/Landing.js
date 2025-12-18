@@ -182,7 +182,7 @@ export default function Landing({ variants }) {
                 variants={isDesktop ? fadeInUp : fadeInUpMobile}
                 className="ogg-regular mb-4 mt-8 text-[4.2rem] leading-[4rem] text-[#303030] md:text-[5rem] lg:mt-24 lg:text-[11rem] lg:leading-[12rem]"
               >
-                Welcome <span className="ogg-regular-italic">to</span> The Met
+                Bienvenido <span className="ogg-regular-italic">al</span> Museo
               </motion.h2>
             </motion.div>
             <div className="plain-medium ml-0 mt-6 flex justify-start text-left lg:mt-14 lg:ml-72 lg:justify-center">
@@ -196,7 +196,7 @@ export default function Landing({ variants }) {
                   className="mt-6 inline-block"
                 >
                   <a href="/" className="inline-block text-[#ec0426]">
-                    Read our visitor guidelines
+                    Lee nuestras guías para visitantes
                   </a>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

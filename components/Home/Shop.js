@@ -8,17 +8,17 @@ export default function Shop() {
         <div className="mt-12">
           <div className="px-4 lg:px-0">
             <h2 className="ogg-regular text-[2.6rem] text-[#2d2d2d] lg:text-[4.1rem]">
-              Holiday gift guide
+              Guía de regalos
             </h2>
           </div>
           <div className="mt-6 mb-8 px-4 lg:mt-20 lg:px-0">
             <p className="plain-regular max-w-[19rem] text-[1rem] text-[#2d2d2d] lg:text-[1.5rem]">
-              Find unique gifts for the art lovers on your list.
+              Encuentra regalos únicos para los amantes del arte en tu lista.
             </p>
           </div>
           <div className="px-4 lg:px-0">
             <a href="/" className="plain-regular text-md text-[#ec0426]">
-              Shop The Met Store
+              Tienda del Museo
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="45px"

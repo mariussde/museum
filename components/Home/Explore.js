@@ -6,12 +6,12 @@ export default function Explore() {
         <div className="flex items-center justify-between">
           <div className="">
             <h2 className="ogg-regular mb-6 pl-4 text-[3rem] leading-[3rem] text-[#2d2d2d] lg:mb-0 lg:pl-0 lg:text-[4.1rem] lg:leading-[14rem]">
-              More to explore online
+              Más para explorar en línea
             </h2>
           </div>
           <div>
             <a href="/" className="plain-regular text-md text-[#ec0426]">
-              See all
+              Ver todo
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="45px"
@@ -32,13 +32,13 @@ export default function Explore() {
           <div className="flex flex-col border-t-2 border-[#c2bfba] lg:flex-row">
             <div className="basis-1/2 pt-8 pb-2 lg:py-24">
               <h3 className="ogg-medium text-[2.6rem] leading-10 text-[#2d2d2d]">
-                COLLECTION AREAS
+                ÁREAS DE COLECCIÓN
               </h3>
             </div>
             <div className="basis-1/2 py-4 lg:ml-12 lg:py-24">
               <p className="plain-regular max-w-[22rem] text-sm text-[#93928e]">
-                These collection areas study, exhibit, and care for the objects
-                in The Met collection.
+                Estas áreas de colección estudian, exhiben y cuidan los objetos
+                de la colección del Museo.
               </p>
             </div>
             <div className="py-4 lg:py-24">
@@ -61,13 +61,13 @@ export default function Explore() {
           <div className="flex flex-col border-t-2 border-[#c2bfba] lg:flex-row">
             <div className="basis-1/2 pt-8 pb-2 lg:py-24">
               <h3 className="ogg-medium text-[2.6rem] leading-10 text-[#2d2d2d]">
-                CELEBRATING 150 YEARS
+                CELEBRANDO 150 AÑOS
               </h3>
             </div>
             <div className="basis-1/2 py-4 lg:ml-12 lg:py-24">
               <p className="plain-regular max-w-[22rem] text-sm text-[#93928e]">
-                Honoring The Met&apos;s anniversary throughout 2020 with
-                exhibitions, events, and new ways to connect with art.
+                Honrando el aniversario del Museo con
+                exposiciones, eventos y nuevas formas de conectar con el arte.
               </p>
             </div>
             <div className="py-4 lg:py-24">
@@ -90,14 +90,14 @@ export default function Explore() {
           <div className="flex flex-col border-t-2 border-[#c2bfba] lg:flex-row">
             <div className="basis-1/2 pt-8 pb-2 lg:py-24">
               <h3 className="ogg-medium text-[2.6rem] leading-10 text-[#2d2d2d]">
-                TRAVEL WITH THE MET
+                VIAJAR CON EL MUSEO
               </h3>
             </div>
             <div className="basis-1/2 py-4 lg:ml-12 lg:py-24">
               <p className="plain-regular max-w-[22rem] text-sm text-[#93928e]">
-                Our trips offer travelers the unique opportunity to see the
-                world and humanity&apos;s highest artistic achievements with the
-                guidance of The Met&apos;s renowed curators and educators.
+                Nuestros viajes ofrecen a los viajeros la oportunidad única de ver el
+                mundo y los mayores logros artísticos de la humanidad con la
+                guía de los renombrados curadores y educadores del Museo.
               </p>
             </div>
             <div className="py-4 lg:py-24">
@@ -120,13 +120,13 @@ export default function Explore() {
           <div className="flex flex-col border-t-2 border-b-2 border-[#c2bfba] lg:flex-row">
             <div className="basis-1/2 pt-8 pb-2 lg:py-24">
               <h3 className="ogg-medium text-[2.6rem] leading-10 text-[#2d2d2d]">
-                VIRTUAL EVENTS
+                EVENTOS VIRTUALES
               </h3>
             </div>
             <div className="basis-1/2 py-4 lg:ml-12 lg:py-24">
               <p className="plain-regular max-w-[22rem] text-sm text-[#93928e]">
-                Engage with art and culture remotely with a variety of virtual
-                events for all audiences.
+                Conéctate con el arte y la cultura de forma remota con una variedad de eventos
+                virtuales para todos los públicos.
               </p>
             </div>
             <div className="py-4 lg:py-24">

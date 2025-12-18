@@ -7,22 +7,22 @@ export default function Locations() {
       <div className="mx-auto my-32 px-5 lg:container lg:my-60 xl:pl-2">
         <div>
           <h2 className="ogg-regular mb-6 text-[3rem] leading-[3rem] text-[#2d2d2d] lg:mb-0 lg:text-[4.1rem] lg:leading-[14rem]">
-            One museum, two locations
+            Un museo, dos ubicaciones
           </h2>
         </div>
         <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
           <div className="border-r-0 border-[#777572] lg:border-r-2 ">
             <div className="plain-regular">
               <h3 className="mb-4 text-[1.2rem] text-[#303030] lg:text-[1.5rem]">
-                The Met Fifth Avenue
+                Museo Principal
               </h3>
               <h4 className="pb-[0.10rem] text-sm text-[#878787]">
-                Sunday-Tuesday and Thursday: 10am - 5pm
+                Domingo-Martes y Jueves: 10:00 - 17:00
               </h4>
               <h4 className="pb-[0.10rem] text-sm text-[#878787]">
-                Friday and Saturday: 10am - 9pm
+                Viernes y Sábado: 10:00 - 21:00
               </h4>
-              <h4 className="text-sm text-[#878787]">Closed Wednesday</h4>
+              <h4 className="text-sm text-[#878787]">Cerrado Miércoles</h4>
             </div>
             <div className="mt-4 flex items-end lg:mt-12">
               <div className="inline-block pr-1 lg:pr-24">
@@ -50,12 +50,12 @@ export default function Locations() {
           <div>
             <div className="plain-regular">
               <h3 className="mb-4 text-[1.2rem] text-[#303030] lg:text-[1.5rem]">
-                The Met Cloisters
+                Sede Secundaria
               </h3>
               <h4 className="pb-[0.10rem] text-sm text-[#878787]">
-                Thursday-Tuesday: 10am - 4:30pm
+                Jueves-Martes: 10:00 - 16:30
               </h4>
-              <h4 className="text-sm text-[#878787]">Closed Wednesday</h4>
+              <h4 className="text-sm text-[#878787]">Cerrado Miércoles</h4>
             </div>
             <div className="mt-4 flex items-end lg:mt-20">
               <div className="inline-block pr-1 lg:pr-24">
